@@ -10,6 +10,4 @@ matlab it up
 
 get some other kids to join and do work
 
-what the harrison doin
-
 
