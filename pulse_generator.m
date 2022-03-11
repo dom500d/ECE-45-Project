@@ -1,6 +1,8 @@
 function output = pulse_generator(amp,phase,f,fs,duration)
-%PULSE_GENERATOR This is supposed to generate a pulse wave which is on half
-%the time
+%PULSE_GENERATOR This is supposed to generate a pulse wave which is on half the time
+%
+% Author: Holden Adamec
+%
 %   amp is the amplitude of the output pulse
 %   phase is the phase shift of the wave (radians)
 %   f is the wave frequency (1/s)
