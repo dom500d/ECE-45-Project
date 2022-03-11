@@ -1,13 +1,8 @@
 # ECE-45-Project
 
-what the dog doin
+Synthesizer created for ECE 45 Final Project
 
-what the holden doin
+## Features
 
-lots of filters, maybe an evenlope or two
-
-matlab it up
-
-get some other kids to join and do work
-
+Able to generate different types of functions and waves, can take in input sound files, plots wave and fourier transform with the ability to play the sound.
 
