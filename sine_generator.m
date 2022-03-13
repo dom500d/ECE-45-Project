@@ -1,6 +1,7 @@
-% Author: Harrison Kung
-% Usage: Takes in 5 variables for amplitude, phase, frequency, sampling
-%        frequency, duration
+%   Author: Harrison Kung
+%   Description: Creates sine signal based on inputs
+%   Usage: Takes in 5 variables for amplitude, phase, frequency, sampling
+%   frequency, duration
 function output = sine_generator(amp, phase, freq, samfreq, duration)
     % set output array to empty array with total # of samples (duration in
     % seconds multiplied by the sample frequency)

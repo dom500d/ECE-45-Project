@@ -1,7 +1,8 @@
-% Author: Harrison Kung
-% Source: https://www.youtube.com/watch?v=ogFAHvYatWs&t=254s (for piano
-% equation)
-% Usage: Takes in 3 variables for frequency, sampling frequency, duration
+%   Author: Harrison Kung
+%   Description: Creates a piano signal based on inputs
+%   Usage: Takes in 3 variables for frequency, sampling frequency, duration
+%   Source: https://www.youtube.com/watch?v=ogFAHvYatWs&t=254s (for piano
+%   equation)
 function output = piano_generator(freq, samfreq, duration)
     % set output array to empty array with total # of samples (duration in
     % seconds multiplied by the sample frequency)
