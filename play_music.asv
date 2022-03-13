@@ -1,0 +1,33 @@
+% Author: Harrison Kung
+% Usage:
+% Mode: 1 for Demo Mode -> Input (1, 2, 3) for different preset songs
+% Mode: 2 for Manual Input Mode -> Input 1D array in format below to play
+function play_music(mode, input)
+    %notes are c,d,e,f,g,a,b,c from 1-8 in array
+    notes = [20, 22.5, 25, 27, 30, 34, 38, 40];
+    %key value frequencies shown below:
+    %c1 = 20;
+    %d1 = 22.5;
+    %e1 = 25;
+    %f1 = 27;
+    %g1 = 30;
+    %a2 = 34;
+    %b2 = 38;
+    %c2 = 40;
+    if (mode == 1)
+        if 
+    end
+    if (mode == 2)
+    
+    end
+    % london bridge
+    song1 = [5,6,5,4,3,4,5,0,2,3,4,0,3,4,5,0,5,6,5,4,3,4,5,0,2,0,5,0,3,1,0,0];
+
+    for i = 1 : length(song1)
+        if (song1(i) ~= 0) 
+            frequency = notes(song1(i)); 
+            sound(piano_generator(frequency, 1000, 100))
+        end
+        pause(0.5)
+    end
+end
