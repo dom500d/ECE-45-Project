@@ -29,6 +29,10 @@ function play_sequence(mode, input, type)
             % happy birthday
             song = [1,1,2,1,4,3,0,1,1,2,1,5,4,0,1,1,8,6,4,3,2,7,7,6,4,5,4];
         end
+        if (input == 3)
+            % special song
+            song = [1,0,3,0,4,3,4,4,4,7,6,5,4,5,0,5,7,8,5,4,7,7,5,7,1,8,0,1];
+        end
     end
     if (mode == 2)
         song = input;
