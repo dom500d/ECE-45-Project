@@ -1,12 +1,11 @@
-% Author: Harrison Kung
-% Description: play_sequence can play demo music and inputted music using
-% custom input, sequences multiple notes at a time
-% Usage Instructions:
-% Mode: 1 for Demo Mode -> Input: (1, 2, 3) for different preset songs
-% Mode: 2 for Manual Input Mode -> Input: 1D array in format below to play
-% Type (Same for Both Modes): 1 for piano_generator, 2 for adsr_piano
-% Data Format: 2D array with 1-8 representing C,D,...,C in notes, use 0
-% to play no sound, all notes played sequentially
+%   Author: Harrison Kung
+%   Description: play_sequence can play demo music and inputted music using
+%   custom input, sequences multiple notes at a time
+%   Usage: Mode 1 for Demo Mode -> Input: (1, 2, 3) for different preset songs
+%   Mode 2 for Manual Input Mode -> Input: 1D array in format below to play
+%   Type (Same for Both Modes): 1 for piano_generator, 2 for adsr_piano
+%   Data Format: 2D array with 1-8 representing C,D,...,C in notes, use 0
+%   to play no sound, all notes played sequentially
 function play_sequence(mode, input, type)
     % notes are c,d,e,f,g,a,b,c from 1-8 in array
     notes = [20, 22.5, 25, 27, 30, 34, 38, 40];

@@ -1,5 +1,6 @@
-% Author: Harrison Kung
-% Usage: Takes in 5 variables for amplitude, phase, frequency, sampling
+%   Author: Harrison Kung
+%   Description: Creates sawtooth signal based on inputs
+%   Usage: Takes in 5 variables for amplitude, phase, frequency, sampling
 %        frequency, duration
 function output = sawtooth_generator(amp, phase, freq, samfreq, duration)
     % set output array to empty array with total # of samples (duration in
