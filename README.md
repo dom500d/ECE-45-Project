@@ -5,11 +5,11 @@ Synthesizer created for ECE 45 Final Project
 ## Contributors
 
 ### Dominic Orlando:
-- app1.mlapp
+>app1.mlapp
 ### Holden Adamec:
-- convolution, adsr_gen, adsr_piano, pulse_generator
+>convolution, adsr_gen, adsr_piano, pulse_generator
 ### Harrison Kung:
-- sine_generator, play_sequence, piano_generator
+>sine_generator, play_sequence, piano_generator
 
 ## Features
 
@@ -28,6 +28,7 @@ Synthesizer created for ECE 45 Final Project
 ADSR Generator
 Author: Phillip L. De Leon
 Source: https://www.mathworks.com/matlabcentral/answers/uploaded_files/223069/ASEE_GSW_2000.pdf
+
 Piano Generator Equations
 Author: Inigo Quilez
 Source: https://www.youtube.com/watch?v=ogFAHvYatWs&t=254s
