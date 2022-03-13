@@ -2,6 +2,8 @@
 
 Synthesizer created for ECE 45 Final Project
 
+[Link to the writeup](https://docs.google.com/document/d/1Q8SJYe2-iq4O8vgneqVcoOJftZLQSdlxxON483gE5Ms/edit?usp=sharing)
+
 ## Contributors
 
 ### Dominic Orlando:
