@@ -24,7 +24,7 @@ output = zeros(samples, 1); % dimensions should be inverse of the signal
 
 % Attack
 start = 1;
-stop = start + samples * length(1);
+stop = start + round(samples * length(1));
 m = attack / (stop - start);
 for i = start:stop
     output(i) = m * i;
@@ -32,7 +32,7 @@ end
 
 % Decay
 start = stop + 1;
-stop = start + samples * length(2);
+stop = start + round(samples * length(2));
 m = (sustain - attack) / (stop - start);
 for i = start:stop
     output(i) = attack + m * (i - start);
@@ -40,7 +40,7 @@ end
 
 % Sustain
 start = stop + 1;
-stop = start + samples * length(3);
+stop = start + round(samples * length(3));
 for i = start:stop
     output(i) = sustain;
 end
