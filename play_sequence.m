@@ -4,7 +4,7 @@
 % Usage Instructions:
 % Mode: 1 for Demo Mode -> Input: (1, 2, 3) for different preset songs
 % Mode: 2 for Manual Input Mode -> Input: 1D array in format below to play
-% Type: 1 for piano_generator, 2 for adsr_piano
+% Type (Same for Both Modes): 1 for piano_generator, 2 for adsr_piano
 % Data Format: 2D array with 1-8 representing C,D,...,C in notes, use 0
 % to play no sound, all notes played sequentially
 function play_sequence(mode, input, type)
