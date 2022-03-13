@@ -4,6 +4,8 @@ Synthesizer created for ECE 45 Final Project
 
 [Link to the writeup](https://docs.google.com/document/d/1Q8SJYe2-iq4O8vgneqVcoOJftZLQSdlxxON483gE5Ms/edit?usp=sharing)
 
+![Project Gui](https://github.com/dom500d/ECE-45-Project/blob/c2678186926acf2eea4fbfdfd02d6feb87a55590/joe%20chill.PNG)
+
 ## Contributors
 
 ### Dominic Orlando:
