@@ -36,24 +36,24 @@ function output = output_sequence(mode, input, type)
     if (mode == 2)
         song = input;
     end
-    output = zeros(length(song), 10000);
-    for i = 1 : length(song)
-        if (song(i) ~= 0) 
-            frequency = notes(song(i)); 
+    output = zeros(1, 10000);
+        if (song(1) ~= 0) 
+            frequency = notes(song(1)); 
             if (type == 1)
                 temp = piano_generator(frequency, 1000, 10);
                 for j = 1: length(temp)
-                    output(i, j) = temp(j);
+                    output(1, j) = temp(j);
                 end
             end
+            
             if (type == 2)
-                signal = sine_generator(1,0,adsr_notes(song(i)),1000,10);
+                signal = sine_generator(1,0,adsr_notes(song(1)),1000,10);
                 temp = adsr_piano(signal, 1000);
-                output(i) = temp(:);
+                output(1) = temp(:);
                 for j = 1: length(temp)
-                    output(i, j) = temp(j);
+                    output(1, j) = temp(j);
                 end
             end
         end
     end
-end
+
