@@ -22,7 +22,6 @@ Synthesizer created for ECE 45 Final Project
 - Import custom note sequences
 - Import custom sound files
 - Plots input wave and fourier transform of input/output
-- Ability to use convolution
 - Displaying graph and outputting sounds of input/output
 
 ## References/Sources
